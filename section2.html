@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valorant – Competitive Play & Maps</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="section1.html">Gameplay</a>
+    <a class="active" href="section2.html">Competitive</a>
+    <a href="references.html">References</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+</div>
+
+<div class="content">
+    <h2>Competitive Play</h2>
+    <p>Valorant’s ranked mode tests teamwork and precision across various skill divisions. 
+    Players are placed in ranks from Iron to Radiant based on performance. 
+    The professional esports scene has rapidly expanded with international tournaments 
+    like <strong>Valorant Champions</strong>.</p>
+
+    <h2>Maps and Strategy</h2>
+    <p>Maps such as <strong>Ascent</strong>, <strong>Bind</strong>, and <strong>Haven</strong> 
+    feature unique layouts and mechanics like teleporters or open mid areas. 
+    Successful play depends on controlling choke points, predicting rotations, 
+    and coordinating utility use.</p>
+</div>
+
+<section class="gallery-section">
+    <h2 style="text-align:center;">Maps Gallery</h2>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="img/corrode.jpg" alt="Corrode" onclick="myFunction(this);">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sunset.jpg" alt="Sunset" onclick="myFunction(this);">
+        </div>
+        <div class="gallery-item">
+            <img src="img/pearl.jpg" alt="Pearl" onclick="myFunction(this);">
+        </div>
+        <div class="gallery-item">
+            <img src="img/lotus.jpg" alt="Lotus" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <!-- Expanded image container -->
+    <div class="expanded-container" id="expandedContainer">
+        <span class="closebtn" onclick="document.getElementById('expandedContainer').style.display='none'">&times;</span>
+        <img id="expandedImg" src="" alt="">
+        <div id="imgtext"></div>
+    </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
